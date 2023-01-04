@@ -1,5 +1,5 @@
 1. 의존성 라이브러리
-```
+```sh
 # yum -y install curl-devel
 # yum -y install expat-devel
 # yum -y install gettext-devel
