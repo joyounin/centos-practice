@@ -42,6 +42,7 @@ history : 사용한 명령
 링크파일 하늘색 - 링크되어있다 cdrom ->sr0
 export : 
 mkdir -p test01/test02 : -p를 넣으면 없는 디렉토리를 만들고 생성
+su - : 계정 변경
 ```
 
 권한
