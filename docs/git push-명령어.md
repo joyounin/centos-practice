@@ -1,3 +1,7 @@
+git 다운로드
+```
+https://git-scm.com/downloads
+```
 
 git 기본명령어
 ```
