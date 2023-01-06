@@ -1,15 +1,16 @@
 기본 명령어
 ```
+프로세스 명령어
 ps : 지금 켜져있는 프로세스
 ps -ef : 전체 프로세스
 ps -ef | more : more에서 받는다.
-more : 많은 라인을 페이지로 나타낸다 보기좋음
+ps -ef | grep : 프로세스 일괄 종료 명령어
 yum -y : y or n를 물어보지않는다
 
 xshell 
 open : 만든 리눅스 서버를 연다.
 sync : 종료해달라고 알림
-init 0 : 꺼라
+init 0 : 끈다
 shutdown -h(halt) 10 : 10분뒤 끝낸다
 shutdown -h now : 바로 종료
 shutdown -c : 취소   
@@ -22,12 +23,14 @@ mkdir : 디렉토리 만든다
 pwd : 위치 확인
 ~ : 홈디렉토리의 별칭
 --version, -version : 버전 확인
+
 ex명령어 <----:-----명령어 ----i----->editing mode
 :w 저장        	         <---esc---
 :q 나가기
 q! 저장 안하고 나가기
-cat : 파일 바깥에서 보기
+
 gcc -o helloworld helloworld.o : 컴파일 실행파일 생성
+
 set 변수이름 값 : 저장
 set :  환경변수 설정
 vi : 파일 들어가기
@@ -40,7 +43,8 @@ extend 모드 : / 치면 검색 가능
 systemctl restart
 history : 사용한 명령
 링크파일 하늘색 - 링크되어있다 cdrom ->sr0
-export : 
+export : 쉘 변수를 환경변수로 저장
+echo : 변수를 출력하는 프린트 함수
 mkdir -p test01/test02 : -p를 넣으면 없는 디렉토리를 만들고 생성
 su - : 계정 변경
 ```
