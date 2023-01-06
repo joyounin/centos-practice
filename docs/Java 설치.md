@@ -8,20 +8,20 @@
 
 2. 압축을 푼다
 
-'''
+```
  # gzip -d jdk-17.0.5_linux-x64_bin.tar.gz
  gzip을 풀고
  
  tar xvf jdk-17.0.5_linux-x64_bin.tar
  tar파일 푼다
- '''
+ ```
  
 3. 설치
 
-'''
+```
 # ln -s /usr/local/douzone2023/java1.8 /usr/local/douzone2023/java
 링크를 걸어준다
-'''
+```
 
 4.설정(/etc/profile)
 
